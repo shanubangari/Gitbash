@@ -1,9 +1,6 @@
 package JavaPrograms;
-
 import java.util.HashSet;
-
 public class PrintOnluDuplicatesinGivenString {
-
 	public static void main(String[] args) {
 		String s="indai";
 		HashSet<Character> set=new HashSet<Character>();
@@ -22,7 +19,6 @@ public class PrintOnluDuplicatesinGivenString {
 			if(count>1)
 			System.out.println(ch+"= "+count);
 		}
-
 	}
 
 }

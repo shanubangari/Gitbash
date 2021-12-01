@@ -1,9 +1,7 @@
 package JavaPrograms;
 
 import java.util.HashSet;
-
 public class NumberOfAccouranceInGivenString {
-
 	public static void main(String[] args) {
 		String s="indai";
 		HashSet<Character> set=new HashSet<Character>();
@@ -21,9 +19,7 @@ public class NumberOfAccouranceInGivenString {
 			}
 			//if(count>1)
 			System.out.println(ch+"= "+count);
-		}
-		
-		
+		}	
 	}
 
 }
